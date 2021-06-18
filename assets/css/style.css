@@ -15,3 +15,48 @@ header {
   background-size: cover; /*para cobrir toda a área do header com a imagem*/
   background-position: bottom; /*a imagem começa pela base*/
 }
+
+header .bg-gradient {
+  min-height: 300px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%); /*parametros de degrade*/
+  }
+
+header .header-border {
+  display: flex;
+  border-bottom: rgba(255,255,255,.25) 1px solid; /*um risco suave*/
+}  
+
+header #logo { /*filhos de header*/
+  width: 200px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 2em; /*tamanho da fonte*/
+  font-weight: bold;
+  text-shadow: #000 1px 1px 8px; /*sombra no texto, 1px baixo, 1px esq, 8px tam da sombra*/
+} 
+
+header #menu { /*filhos de header*/
+  flex: 1; /*ajustar automaticamente, ou seja, vai pegar todo o restante e dividir em uma parte*/
+}
+
+header #menu ul {
+  display: flex; /*display flex, menus em colunas ao invés de linhas*/
+  justify-content: flex-end; /*alinhou no lado direito*/
+  list-style: none; /*remover a bolinha do lado do texto*/
+  padding: 0;
+}
+
+header #menu li {
+  min-width: 100px;
+  line-height: 28 px; /*altura da linha em relação ao topo da página*/
+}
+
+header #menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold; /*fonte em negrito*/
+  padding: 20px;
+}
+
