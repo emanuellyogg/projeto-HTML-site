@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 500px;
+  background-image: url("../images/header.jpg");  /*fundo do header com imagem*/
+  background-repeat: no-repeat; /*faz com que, mesmo que a dimensão seja maior que a imagem, vem uma vez só*/
+  background-size: cover; /*para cobrir toda a área do header com a imagem*/
+  background-position: bottom; /*a imagem começa pela base*/
+}
