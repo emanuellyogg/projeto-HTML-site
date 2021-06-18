@@ -142,3 +142,15 @@ footer .container {
 footer .menu a {
   color: #6c757d;
 }
+
+@media(max-width: 450px) { /*adaptação para outros tamanhos de telas*/
+  .menu ul {
+    display: none;
+  }
+  #register {
+    width: 90%;
+    margin: 0 5%;
+    max-width: initial;
+    right: initial;
+  }
+}
