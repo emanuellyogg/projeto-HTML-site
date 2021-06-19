@@ -129,6 +129,9 @@ footer {
   background: #f5f5f5;
   color: #6c757d;
   font-size: .8em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
